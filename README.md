@@ -47,6 +47,6 @@ This repository contains the source code and assets for the **Modern American Co
 
 For questions or inquiries, please contact:
 
-- **Your Name**: [your.email@example.com]
-- **Phone**: (123) 456-7890
+- **Your Name**: [https://my.ionos.com/mailinglist-details/16967100402]
+- **Phone**: (856)537-0288
 - **Website**: [modernamericanconstructionllc.com](https://modernamericanconstructionllc.com)
