@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f8f9fa; /* Light background for contrast */
@@ -25,13 +25,11 @@ header {
     background-color: #007bff; /* Primary brand color */
     color: white;
     padding: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header .logo h1 {
     margin: 0;
     font-size: 2.5em;
-    text-align: center;
 }
 
 nav {
@@ -53,13 +51,12 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    transition: background 0.3s, transform 0.3s;
-    border-radius: 5px;
+    transition: background 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a[aria-current="page"] {
     background: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
-    transform: scale(1.05); /* Slight scaling effect on hover */
 }
 
 /* Hero section styling */
@@ -67,18 +64,12 @@ nav ul li a:hover {
     position: relative;
     text-align: center;
     color: white;
-    overflow: hidden;
 }
 
 .hero-image {
     width: 100%;
     height: auto;
-    filter: brightness(0.6); /* Darken the image */
-    transition: filter 0.5s; /* Smooth transition */
-}
-
-.hero-image:hover {
-    filter: brightness(0.8); /* Brighten on hover for effect */
+    filter: brightness(0.7); /* Darken the image for text visibility */
 }
 
 .hero-text {
@@ -86,7 +77,6 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
 }
 
 .cta-button {
@@ -95,13 +85,12 @@ nav ul li a:hover {
     padding: 15px 25px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.5em;
-    transition: background 0.3s, transform 0.3s;
+    font-size: 1.2em;
+    transition: background 0.3s;
 }
 
 .cta-button:hover {
     background-color: #e0a800; /* Darker shade on hover */
-    transform: scale(1.05); /* Slight scaling effect on hover */
 }
 
 /* Services overview styling */
@@ -124,23 +113,32 @@ nav ul li a:hover {
 }
 
 .services-list article {
-    flex: 1 1 250px; /* Responsive flexbox layout */
+    flex: 1 1 200px; /* Responsive flexbox layout */
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; /* Light border for separation */
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #f1f1f1; /* Light gray background */
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.services-list article:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 .services-list h4 {
     margin-bottom: 10px;
-    color: #007bff; /* Use brand color for service titles */
+}
+
+/* Testimonials styling */
+.testimonials {
+    padding: 40px 0;
+    background-color: #f1f1f1; /* Light gray background for contrast */
+    text-align: center;
+}
+
+.testimonials blockquote {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #007bff; /* Brand color for left border */
+    background: white;
+    display: inline-block;
+    width: 80%; /* Center the blockquote */
 }
 
 /* Footer styling */
