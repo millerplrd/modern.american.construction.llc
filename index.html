@@ -28,7 +28,7 @@ Content Management System (CMS)**: WordPress or similar (if applicable).
 Installation
 
 Clone the Repository:
-      git clone https://github.com/yourusername/modern-american-construction-website.git
+      git clone https://github.com/millerplrd/modern-american-construction-website.git
   
 
 Navigate to the Directory:
